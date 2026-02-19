@@ -28,4 +28,12 @@ void setup() {
  Serial.println("Servo initiate");
 }
 
+/**
+ * @brief Arduino main loop.
+ *
+ * Sweeps the servo from 0 to 180 degrees in steps of 10 degrees, then back
+ * from 180 to 0 degrees in steps of 10 degrees. At each step the current
+ * angle is written to the servo and printed to the Serial monitor. Each step
+ * pauses for 500 ms.
+ */
 
