@@ -36,4 +36,18 @@ void setup() {
  * angle is written to the servo and printed to the Serial monitor. Each step
  * pauses for 500 ms.
  */
+void loop() {
 
+ for (int i = 0; i <= 180; i += 10) {
+  myServo.write(i);
+
+  Serial.print("Servo Angle: ");
+  Serial.println(i);
+
+  delay(500);
+ }
+
+ 
+ }
+
+}
