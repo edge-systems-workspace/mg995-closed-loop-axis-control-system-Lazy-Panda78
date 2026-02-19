@@ -14,4 +14,10 @@
 #include <Servo.h>
 
 Servo myServo;
+/**
+ * @brief Arduino setup function.
+ *
+ * Initializes serial communication at 9600 baud, attaches the servo to pin 11,
+ * and prints an initialization message over Serial.
+ */
 
